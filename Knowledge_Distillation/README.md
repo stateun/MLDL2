@@ -16,7 +16,7 @@ This project implements Knowledge Distillation using the CIFAR-100 dataset, wher
 ---
 
 ## Student Model
-- **Architecture:** A smaller variant of ResNet-18 with reduced layers.
+- **Architecture:** A smaller variant of ResNet
 - **Modifications:**
   - Removed the last block (`layer4`) for a more compact model.
   - Adjusted the fully connected layer for CIFAR-100 classification (100 classes).
