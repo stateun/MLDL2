@@ -8,7 +8,7 @@ This project implements Knowledge Distillation using the CIFAR-100 dataset, wher
 ---
 
 ## Teacher Model
-- **Architecture:** Pretrained ResNet-18
+- **Architecture:** Pretrained ResNet-50
 - **Dataset:** CIFAR-100
 - **Purpose:** Provides softened outputs (logits) to train the student model effectively.
 - **Pretrained Weights:** Loaded from a checkpoint (`pretrained_teacher.pth`).
